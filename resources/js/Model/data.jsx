@@ -13,7 +13,7 @@ export const data = {
     accordion: [
         {
             title: "Apa saja contoh aplikasi ERP yang digunakan perusahaan di Indonesia?",
-            desc: "lorem ipsum sidulur amet",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
         },
         {
             title: "Apa pengertian dari ERP?",
@@ -21,19 +21,19 @@ export const data = {
         },
         {
             title: "Apa keuntungan menggunakan software ERP?",
-            desc: "lorem ipsum sidulur amet",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
         },
         {
             title: "Bagaimana cara kerja software ERP?",
-            desc: "lorem ipsum sidulur amet",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
         },
         {
             title: "Berapa biaya menggunakan sistem ERP dari Tupai?",
-            desc: "lorem ipsum sidulur amet",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
         },
         {
             title: "Mengapa Tupai merupakan pilihan sistem ERP perusahaan terbaik?",
-            desc: "lorem ipsum sidulur amet",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
         },
     ],
 

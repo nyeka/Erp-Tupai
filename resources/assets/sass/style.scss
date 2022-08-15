@@ -761,6 +761,13 @@ section#wrapper {
         align-items: center;
         border-radius: 4px;
     }
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 24px;
+        .item {
+            width: fit-content;
+        }
+    }
 }
 
 footer {

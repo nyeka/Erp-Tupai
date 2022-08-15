@@ -710,6 +710,16 @@ section#wrapper .title {
   align-items: center;
   border-radius: 4px;
 }
+@media screen and (max-width: 1024px) {
+  section#wrapper {
+    margin-top: 24px;
+  }
+  section#wrapper .item {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
 
 footer {
   background: #0d121f;
