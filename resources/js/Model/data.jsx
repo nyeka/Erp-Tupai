@@ -8,6 +8,12 @@ import mandiri from "../../assets/image/client/mandiri.png";
 import syariah from "../../assets/image/client/syariah.png";
 import contact from "../../assets/image/contact.png";
 import lamp from "../../assets/image/lamp.png";
+import gear from "../../assets/image/solutions/gear.png";
+import cloud from "../../assets/image/solutions/clod.png";
+import connect from "../../assets/image/solutions/conect.png";
+import shield from "../../assets/image/solutions/shield.png";
+import finance from "../../assets/image/finence.png";
+import sales from "../../assets/image/sales.png";
 
 export const data = {
     accordion: [
@@ -62,12 +68,12 @@ export const data = {
             text: "Solusi otomasi payroll, absensi, hingga benefit karyawan untuk proses HR yang lebih efektif.",
         },
         {
-            img: contact,
+            img: finance,
             title: "Tim Finance & Pajak",
             text: "  Solusi akuntansi otomatis dan akurat untuk pencatatan keuangan, stok barang, hingga pelaporan pajak.",
         },
         {
-            img: contact,
+            img: sales,
             title: "Tim Sales & Support",
             text: "Solusi omnichannel CRM untuk percepat penjualan dan layanan pelanggan bisnis yang terotomasi.",
         },
@@ -182,22 +188,22 @@ export const data = {
             desc: "Maksimalkan performa bisnis melalui integrasi antar produk yang praktis.",
         },
         {
-            img: lamp,
+            img: shield,
             title: "Kemanan data terjamin",
             desc: "Prosedur keamanan bersertifikasi ISO 27001 yang setara dengan bank.",
         },
         {
-            img: lamp,
+            img: cloud,
             title: "Tersimpan di cloud",
             desc: "Akses seluruh data penting dengan mudah, di mana saja dan kapan saja.",
         },
         {
-            img: lamp,
+            img: connect,
             title: "Fleksibel sesuai kebutuhan bisnis",
             desc: "Solusi fleksibel yang menyesuaikan kebutuhan dan budget.",
         },
         {
-            img: lamp,
+            img: gear,
             title: "Otomatisasi aktivitas bisnis",
             desc: "Hindari human-error serta proses manual yang memakan waktu dan biaya.",
         },
