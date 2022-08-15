@@ -51,7 +51,7 @@ export default function App() {
                 textsolusion="Tingkatkan penjualan dan kepuasan pelanggan dengan pelayanan yang tepat"
                 longsol="Bantuan software Omnichannel CRM dapat mengotomasikan proses penjualan dan layanan ke ribuan pelanggan dengan optimal."
             />
-            <About />
+            <About data={data.accordion} />
             <BottomSec />
             <Footer />
         </div>

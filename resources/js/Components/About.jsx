@@ -1,6 +1,7 @@
 import React from "react";
+import Accordions from "./Accordions";
 
-export default function About() {
+export default function About({ data }) {
     return (
         <section id="About">
             <div className="about-text">
@@ -17,6 +18,9 @@ export default function About() {
                     pajak.
                 </p>
             </div>
+            <Accordions data={data} /> 
+            {/* <div className="parent">
+
             <div className="acomponion">
                 <p>
                     Apa saja contoh aplikasi ERP yang digunakan perusahaan di
@@ -37,6 +41,7 @@ export default function About() {
                     />
                 </svg>
             </div>
+            </div> */}
 
             {/* <div className="container">
                 <div className="accordions">

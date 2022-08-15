@@ -10,6 +10,33 @@ import contact from "../../assets/image/contact.png";
 import lamp from "../../assets/image/lamp.png";
 
 export const data = {
+    accordion: [
+        {
+            title: "Apa saja contoh aplikasi ERP yang digunakan perusahaan di Indonesia?",
+            desc: "lorem ipsum sidulur amet",
+        },
+        {
+            title: "Apa pengertian dari ERP?",
+            desc: "ERP atau Enterprise Resource Planning adalah sebuah sistem informasi yang dapat mengintegrasikan dan mengotomasi data yang dihasilkan oleh berbagai software, sehingga menghasilkan informasi yang dapat digunakan pihak manajemen untuk mengambil keputusan.",
+        },
+        {
+            title: "Apa keuntungan menggunakan software ERP?",
+            desc: "lorem ipsum sidulur amet",
+        },
+        {
+            title: "Bagaimana cara kerja software ERP?",
+            desc: "lorem ipsum sidulur amet",
+        },
+        {
+            title: "Berapa biaya menggunakan sistem ERP dari Tupai?",
+            desc: "lorem ipsum sidulur amet",
+        },
+        {
+            title: "Mengapa Tupai merupakan pilihan sistem ERP perusahaan terbaik?",
+            desc: "lorem ipsum sidulur amet",
+        },
+    ],
+
     client: [
         {
             img: syariah,

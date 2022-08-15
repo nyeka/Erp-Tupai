@@ -613,18 +613,6 @@ section#About .about-text p {
   font-weight: 400;
   font-size: 20px;
 }
-section#About .acomponion {
-  background: #f3f5f7;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: 703px;
-  padding: 24px 20px;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 4px;
-  align-items: center;
-}
 @media screen and (max-width: 1024px) {
   section#About {
     padding: 24px;
@@ -679,6 +667,48 @@ section#bottomsec .contain-bottom {
     width: -moz-fit-content;
     width: fit-content;
   }
+}
+
+section#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+section#wrapper .accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+section#wrapper .item {
+  width: 712px;
+  background: #f3f5f7;
+  padding: 24px 20px;
+  font-family: "Plus Jakarta Sans";
+}
+section#wrapper .descriptions {
+  color: #596780;
+  font-weight: 400;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+section#wrapper .show {
+  height: auto;
+  max-height: 1000px;
+  transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+}
+section#wrapper .title {
+  font-weight: 500;
+  cursor: pointer;
+  color: #0d121f;
+  font-size: 18px;
+  margin-bottom: 24.5px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
 }
 
 footer {

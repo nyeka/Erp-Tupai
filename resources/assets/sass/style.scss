@@ -665,17 +665,6 @@ section#About {
         }
     }
 
-    .acomponion {
-        background: $semiGelap;
-        height: fit-content;
-        width: 703px;
-        padding: 24px 20px;
-        display: flex;
-        justify-content: space-around;
-        border-radius: 4px;
-        align-items: center;
-    }
-
     @media screen and (max-width: 1024px) {
         padding: 24px;
 
@@ -729,6 +718,48 @@ section#bottomsec {
         .contain-bottom {
             width: fit-content;
         }
+    }
+}
+
+section#wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .accordions {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .item {
+        width: 712px;
+        background: $semiGelap;
+        padding: 24px 20px;
+        font-family: $JakartaPlus;
+    }
+    .descriptions {
+        color: $BiruGelap;
+        font-weight: $weightregulerjakarta;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    }
+    .show {
+        height: auto;
+        max-height: 1000px;
+        transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+    }
+
+    .title {
+        font-weight: 500;
+        cursor: pointer;
+        color: $Dark;
+        font-size: 18px;
+        margin-bottom: 24.5px;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
     }
 }
 
