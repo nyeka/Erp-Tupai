@@ -21,66 +21,77 @@ $Dark: #0d121f;
     padding: 0;
 }
 
+nav {
+    display: flex;
+    background-color: $BiruGelap;
+    color: $defaultcolor;
+    height: 85px;
+    z-index: 6;
+    position: fixed;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+    background: url("../image/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .dropdown {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    li {
+        cursor: pointer;
+        font-family: $JakartaPlus;
+        font-weight: $weightMediumjakarta;
+        font-size: 18px;
+    }
+
+    .button-demo {
+        background-color: $semiGelapHitam;
+        padding: 13px 24px;
+        border-radius: 30px;
+        height: fit-content;
+    }
+
+    .satu {
+        width: 25px;
+        height: 2.5px;
+        background-color: $defaultcolor;
+        margin: 5px 0;
+    }
+
+    @media screen and (min-width: 900px) {
+        .div-tree {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        ul {
+            display: none;
+        }
+        .button-demo {
+            display: none;
+        }
+        justify-content: space-between;
+        padding: 0 22px;
+    }
+}
+
 section#navbar {
     background: url("../image/bg.svg");
     color: $defaultcolor;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 24px;
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-        background-color: transparent;
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            gap: 24px;
-        }
-
-        .dropdown {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-        }
-
-        li {
-            font-family: $JakartaPlus;
-            font-weight: $weightMediumjakarta;
-            font-size: 18px;
-        }
-
-        .button-demo {
-            background-color: $semiGelapHitam;
-            padding: 13px 24px;
-            border-radius: 30px;
-        }
-
-        .satu {
-            width: 25px;
-            height: 2.5px;
-            background-color: $defaultcolor;
-            margin: 5px 0;
-        }
-
-        @media screen and (min-width: 900px) {
-            .div-tree {
-                display: none;
-            }
-        }
-
-        @media screen and (max-width: 900px) {
-            ul {
-                display: none;
-            }
-            .button-demo {
-                display: none;
-            }
-            justify-content: space-between;
-            padding: 0 22px;
-        }
-    }
 }
 .card-name {
     display: flex;
@@ -92,7 +103,7 @@ section#navbar {
 }
 
 section#article {
-    margin-top: 118px;
+    margin-top: 78px;
     .card-text {
         display: flex;
         flex-flow: row wrap;
@@ -118,7 +129,7 @@ section#article {
 
         .text-card {
             width: 50vw;
-            padding-left: 104px;
+            padding-left: 94px;
         }
 
         .image-btn {

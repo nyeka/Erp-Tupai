@@ -4,7 +4,9 @@ import dashbord from "../../assets/image/dashbord.png";
 export default function Feature({ data }) {
     return (
         <section id="features">
-            <div className="text-features">
+            <div
+                className="text-features"
+            >
                 <h3>Mengapa Pilih rapi.ind</h3>
                 <h4>Optimalkan proses bisnis dengan solusi ERP lengkap</h4>
                 <div className="content">
@@ -25,7 +27,9 @@ export default function Feature({ data }) {
                     )}
                 </div>
             </div>
-            <div className="image-card">
+            <div
+                className="image-card"
+            >
                 <img src={dashbord} alt="ini gambar" />
             </div>
         </section>

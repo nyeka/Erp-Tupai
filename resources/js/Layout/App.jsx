@@ -1,4 +1,4 @@
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/Layout/Navbar";
 import React from "react";
 import SponsorClient from "./SponsorClient";
 import { data } from "@/Model/data";

@@ -8,7 +8,7 @@ export default function ArticleSection() {
     return (
         <section id="article">
             <div className="card-text">
-                <div className="text-card">
+                <div className="text-card" >
                     <h3>Software erp tupai tech</h3>
                     <h4>Software ERP untuk operasional bisnis lebih efisien</h4>
                     <p>
@@ -17,17 +17,17 @@ export default function ArticleSection() {
                         bisnis yang aman dan terintegrasi.
                     </p>
                     <div className="contact-text">
-                        <img src={wa} alt="ini gambar"/>
+                        <img src={wa} alt="ini gambar" />
                         Whatsapp Kami
                     </div>
                 </div>
-                <div className="image-btn">
+                <div className="image-btn" >
                     <div className="btn-layang">
-                        <img src={stats} alt="ini gambar"/>
+                        <img src={stats} alt="ini gambar" />
                     </div>
-                    <img src={dash} alt="ini gambar"/>
+                    <img src={dash} alt="ini gambar" />
                     <div className="btn-text">
-                        <img src={TextCirlce} alt="ini gambar"/>
+                        <img src={TextCirlce} alt="ini gambar" />
                     </div>
                 </div>
             </div>

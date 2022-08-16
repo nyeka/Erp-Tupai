@@ -6,60 +6,74 @@
   padding: 0;
 }
 
-section#navbar {
-  background: url("../image/bg.svg");
+nav {
+  display: flex;
+  background-color: #596780;
   color: #fff;
+  height: 85px;
+  z-index: 6;
+  position: fixed;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-around;
+  background: url("../image/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 24px;
 }
-section#navbar nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: transparent;
-}
-section#navbar nav ul {
+nav ul {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 40px;
 }
-section#navbar nav .dropdown {
+nav .dropdown {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-section#navbar nav li {
+nav li {
+  cursor: pointer;
   font-family: "Plus Jakarta Sans";
   font-weight: 500;
   font-size: 18px;
 }
-section#navbar nav .button-demo {
+nav .button-demo {
   background-color: #1a202c;
   padding: 13px 24px;
   border-radius: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
-section#navbar nav .satu {
+nav .satu {
   width: 25px;
   height: 2.5px;
   background-color: #fff;
   margin: 5px 0;
 }
 @media screen and (min-width: 900px) {
-  section#navbar nav .div-tree {
+  nav .div-tree {
     display: none;
   }
 }
 @media screen and (max-width: 900px) {
-  section#navbar nav {
+  nav {
     justify-content: space-between;
     padding: 0 22px;
   }
-  section#navbar nav ul {
+  nav ul {
     display: none;
   }
-  section#navbar nav .button-demo {
+  nav .button-demo {
     display: none;
   }
+}
+
+section#navbar {
+  background: url("../image/bg.svg");
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 24px;
 }
 
 .card-name {
@@ -72,7 +86,7 @@ section#navbar nav .satu {
 }
 
 section#article {
-  margin-top: 118px;
+  margin-top: 78px;
   padding: 24px 0;
 }
 section#article .card-text {
@@ -98,7 +112,7 @@ section#article .card-text p {
 }
 section#article .card-text .text-card {
   width: 50vw;
-  padding-left: 104px;
+  padding-left: 94px;
 }
 section#article .card-text .image-btn {
   display: flex;
