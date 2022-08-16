@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import styled from "styled-components";
 
@@ -60,12 +61,18 @@ export default function Nav() {
                     </svg>
                 </div>
                 <div className="dropdown">
-                    <li className="hover-down">Solusi</li>
+                    <li className="hover-down">
+                        <Link to="/solusi">Solusi</Link>
+                    </li>
                 </div>
                 <div className="dropdown">
-                    <li className="hover-down">Integrasi</li>
+                    <li className="hover-down">
+                        <Link to="/integrasi">Integrasi</Link>
+                    </li>
                 </div>
-                <li className="hover-down">Harga</li>
+                <li className="hover-down">
+                    <Link to="harga">Harga</Link>
+                </li>
                 <div className="dropdown">
                     <li>Perusahaan</li>
                     <svg
@@ -200,12 +207,10 @@ const Wrapper = styled.div`
 
     .icon-close {
         width: 100vw;
-
         margin: 2em;
 
         img {
             cursor: pointer;
-
             left: 0;
             width: 16px;
         }
