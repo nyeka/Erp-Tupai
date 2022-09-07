@@ -1,0 +1,84 @@
+{
+  "resources/assets/image/dashbord.png": {
+    "file": "assets/dashbord.7877bc70.png",
+    "src": "resources/assets/image/dashbord.png"
+  },
+  "resources/assets/image/dashb.png": {
+    "file": "assets/dashb.92fb623b.png",
+    "src": "resources/assets/image/dashb.png"
+  },
+  "resources/assets/image/hr.png": {
+    "file": "assets/hr.5c6fd6fc.png",
+    "src": "resources/assets/image/hr.png"
+  },
+  "resources/assets/image/author2.png": {
+    "file": "assets/author2.0341ed03.png",
+    "src": "resources/assets/image/author2.png"
+  },
+  "resources/assets/image/author3.png": {
+    "file": "assets/author3.3ad72779.png",
+    "src": "resources/assets/image/author3.png"
+  },
+  "resources/assets/image/dash.png": {
+    "file": "assets/dash.b4ea2aa9.png",
+    "src": "resources/assets/image/dash.png"
+  },
+  "resources/assets/image/text-circle.png": {
+    "file": "assets/text-circle.f7c099ea.png",
+    "src": "resources/assets/image/text-circle.png"
+  },
+  "resources/assets/image/riight.svg": {
+    "file": "assets/riight.59609757.svg",
+    "src": "resources/assets/image/riight.svg"
+  },
+  "resources/assets/image/bottom.svg": {
+    "file": "assets/bottom.13dd0a87.svg",
+    "src": "resources/assets/image/bottom.svg"
+  },
+  "resources/assets/image/bg.svg": {
+    "file": "assets/bg.8fb2b4b6.svg",
+    "src": "resources/assets/image/bg.svg"
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app.e50f7c83.js",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Main.jsx"
+    ],
+    "css": [
+      "assets/app.374afa1f.css"
+    ]
+  },
+  "resources/js/Pages/Main.jsx": {
+    "file": "assets/Main.2c1a5d41.js",
+    "src": "resources/js/Pages/Main.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/Main.4fea0a73.css"
+    ],
+    "assets": [
+      "assets/dash.b4ea2aa9.png",
+      "assets/text-circle.f7c099ea.png",
+      "assets/hr.5c6fd6fc.png",
+      "assets/author2.0341ed03.png",
+      "assets/author3.3ad72779.png",
+      "assets/dashb.92fb623b.png",
+      "assets/dashbord.7877bc70.png",
+      "assets/riight.59609757.svg",
+      "assets/bottom.13dd0a87.svg",
+      "assets/bg.8fb2b4b6.svg"
+    ]
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.374afa1f.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/Pages/Main.css": {
+    "file": "assets/Main.4fea0a73.css",
+    "src": "resources/js/Pages/Main.css"
+  }
+}
